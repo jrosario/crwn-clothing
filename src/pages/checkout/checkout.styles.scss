@@ -28,5 +28,38 @@
       margin-left: auto;
       font-size: 36px;
     }
+
+    button {
+      margin-left: auto;
+      margin-top: 50px;
+    }
+
+    .test-warning {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 20px;
+      color: red;
+      width: 100%;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+    }
+    
+    table#test-checkout {
+      border-collapse: collapse;
+      width: inherit;
+    }
+
+    #test-checkout thead td{
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    #test-checkout tbody td {
+      padding: 1%;
+      font-size: 19px;
+    }
   }
   
